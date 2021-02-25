@@ -1,14 +1,19 @@
 
 
 import React from "react";
+import Header from "./Header.jsx";
+import Note from "./Note.jsx";
+import Footer from "./Footer.jsx";
+
 
 function App() {
   return (
-    <ul>
-      <li>Bacon</li>
-      <li>Jamon</li>
-      <li>Noodles</li>
-    </ul>
+    <div>
+    <Header />
+    <Note />
+    <Footer />
+    </div>
+    
   );
 }
 
