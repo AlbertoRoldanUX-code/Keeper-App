@@ -13,7 +13,8 @@ function App() {
     {notes.map(function(note){
       return (<Note 
         key={note.key}
-        
+        title={note.title}
+        content={note.content}
       />)
       
 
